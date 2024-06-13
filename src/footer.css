@@ -1,0 +1,23 @@
+.footer{ 
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border-top: 2px dotted #0a0a0a92;
+    /* border-top-right-radius: 1%;
+    border-top-left-radius: 1%; */
+    /* overflow: hidden; */
+    /* border-radius: 50px 50px 50px 50px; */
+    /* background-color: rgba(10, 10, 10, 0.423) */
+}
+
+.footer-content{
+
+    font-family: "Roboto";
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}

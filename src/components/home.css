@@ -1,0 +1,133 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+    /*background-image: url('./components/images/home_bg.jpeg');*/
+    /* background-color: #393e46; */
+
+    /* background-color: #003049; */
+}
+/* .Msg1
+{
+  display:flex;
+  
+} */
+.welcome-msg {
+    color: white;
+    font-family: "Yellowtail";
+    /* font-family: "Rubik Broken Fax", system-ui; */
+    font-size: 70px;
+    /* margin-left: 20%; */
+}
+.hero-text{
+    font-size: 25px;
+}
+.welcome-img img {
+    height: 350px;
+    width: 480px;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+.section-card {
+    display: flex;
+    /* flex-direction: column; */
+    color: white;
+    margin-top: 1%;
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-bottom: 1%;
+    padding: 5%;
+    gap:50px;
+    background-color: rgba(10, 10, 10, 0.423);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section-card:nth-child(1){
+    margin-top: 10%;
+    /* flex-direction: row; */
+}
+/*
+.section-card:nth-child(even){
+    align-self: flex-end;
+    margin-right: -10%;
+    flex-direction: row-reverse;
+} */
+.repo-section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.section-title {
+    font-size: 4em;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.repo-grid {
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.repo-tile {
+    flex: 1 1 calc(20% - 20px); /* Fixed width for 5 items per row, accounting for gap */
+    width:200px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #252323bc;
+    color: #fff; /* Use a contrasting color for text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.repo-tile a {
+    text-decoration: none;
+    color: #f7f7f7 !important; /* Desired color for the link text */
+    font-weight: bold; /* Optional: to emphasize the link text */
+    transition: color 0.3s ease; /* Optional: smooth transition for hover effect */
+}
+
+.repo-tile a:hover {
+    color: #ffffff84 !important; /* Color change on hover */
+}
+
+.repo-tile h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.repo-tile p {
+    font-size: 1em;
+    color: #f7f7f7 !important;
+}
+
+.repo-tile a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+.repo-tile a:hover {
+    text-decoration: underline;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
