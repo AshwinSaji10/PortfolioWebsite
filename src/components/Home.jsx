@@ -56,7 +56,7 @@ function Home() {
                     <h1 className="font-palanquin text-4xl sm:text-8xl px-20 pt-28">
                         Welcome to my Portfolio Website!
                     </h1>
-                    <p className="font-montserrat text-xl sm:text-2xl mt-4 mb-8">
+                    <p className="font-montserrat text-xl sm:text-2xl mt-4">
                         Hi there, I am Ashwin Saji
                     </p>
                 </div>
