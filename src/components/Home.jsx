@@ -49,14 +49,14 @@ function Home() {
             {/* Hero Section */}
             <div
                 id="home"
-                className="flex flex-col xl:flex-row pt-28 gap-6 px-10 bg-cover bg-center min-h-[75vh]"
+                className="bg-cover bg-center min-h-[60vh]"
                 style={{ backgroundImage: `url(${sky})` }}
             >
-                <div className="flex flex-col items-center justify-center text-white text-center pb-5">
-                    <h1 className="font-palanquin text-8xl  px-10">
+                <div className="flex flex-col items-center gap-6 justify-center text-white text-center ">
+                    <h1 className="font-palanquin text-4xl sm:text-8xl px-20 pt-28">
                         Welcome to my Portfolio Website!
                     </h1>
-                    <p className="font-montserrat text-2xl mt-4">
+                    <p className="font-montserrat text-xl sm:text-2xl mt-4 mb-8">
                         Hi there, I am Ashwin Saji
                     </p>
                 </div>
@@ -108,16 +108,6 @@ function Home() {
             <div id="stack" className="py-20 px-10 ">
                 <h1 className="font-palanquin text-4xl mb-4">Tech Stack</h1>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-                    {/* <SkillItem icon={<CogIcon className="h-8 w-8 text-blue-500" />} text="Teamwork" />
-                    <SkillItem icon={<SpeakerphoneIcon className="h-8 w-8 text-green-500" />} text="Communication" />
-                    <SkillItem icon={<SparklesIcon className="h-8 w-8 text-yellow-500" />} text="Flutter" />
-                    <SkillItem icon={<CodeIcon className="h-8 w-8 text-purple-500" />} text="Dart" />
-                    <SkillItem icon={<GlobeAltIcon className="h-8 w-8 text-blue-500" />} text="Kotlin" />
-                    <SkillItem icon={<ChipIcon className="h-8 w-8 text-green-500" />} text="ReactJS" />
-                    <SkillItem icon={<DatabaseIcon className="h-8 w-8 text-yellow-500" />} text="Tailwind" />
-                    <SkillItem icon={<ServerIcon className="h-8 w-8 text-purple-500" />} text="Python" />
-                    <SkillItem icon={<TerminalIcon className="h-8 w-8 text-blue-500" />} text="Flask" />
-                    <SkillItem icon={<AcademicCapIcon className="h-8 w-8 text-green-500" />} text="Firebase" /> */}
                     <SkillItem
                         iconSrc="/icons/React-Light.svg"
                         text="ReactJS"
