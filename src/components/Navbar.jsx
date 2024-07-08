@@ -7,7 +7,7 @@ const Navbar = () => {
             className="fixed z-1000 flex justify-around mt-0 w-full  
             backdrop-filter backdrop-blur-lg bg-opacity-30 px-8 py-3 font-montserrat bg-slate-400"
         >
-            <img src=""></img>
+            {/* <img src=""></img> */}
             {/* <NavLink to="/">Home</NavLink>
                 <NavLink to="/About">About Me</NavLink>
                 <NavLink to="/Skills">Skills</NavLink>
