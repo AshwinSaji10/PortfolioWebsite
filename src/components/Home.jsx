@@ -149,6 +149,8 @@ function Home() {
                     <SkillItem iconSrc="/icons/Git.svg" text="Git" />
                     <SkillItem iconSrc="/icons/C.svg" text="C" />
                     <SkillItem iconSrc="/icons/CPP.svg" text="C++" />
+                    <SkillItem iconSrc="/icons/SQLite.svg" text="SQLite" />
+                    <SkillItem iconSrc="/icons/MongoDB.svg" text="MongoDB" />
 
                     {/* <SkillItem iconSrc="/icons/firebase.png" text="Firebase" /> */}
                 </div>
@@ -167,8 +169,10 @@ function Home() {
                             <div key={repo.id} className="flex-shrink-0 w-80">
                                 <div
                                     className="flex flex-col justify-center items-center 
-                                bg-white rounded-lg shadow-md p-8 h-full"
-                                    style={{ backgroundImage: `url(${github_bg})` }}
+                                 rounded-lg shadow-md p-8 h-full bg-white "
+                                    // style={{
+                                    //     backgroundImage: `url(${github_bg})`,
+                                    // }}
                                 >
                                     {/* <h1>hello</h1> */}
                                     {/* <img
@@ -180,9 +184,15 @@ function Home() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <h2 className="font-bold text-xl mb-2">
-                                            {repo.name}
-                                        </h2>
+                                        <div className="flex items-center justify-center gap-2">
+                                            <img
+                                                className="h-10 w-10"
+                                                src="/icons/Github-Dark.svg"
+                                            ></img>
+                                            <h2 className="font-bold text-xl text-black">
+                                                {repo.name}
+                                            </h2>
+                                        </div>
                                     </a>
                                     <p className="text-gray-700">
                                         {repo.description}
@@ -207,9 +217,10 @@ function Home() {
             </div>
 
             {/* Contact Section */}
-            <div id="contact" className="py-20 px-10">
+            <div id="contact" className="flex flex-col py-20 px-10">
                 <h1 className="font-palanquin text-4xl mb-4">Contact</h1>
-                <p className="text-lg">Email: aswinsaji777@gmail.com</p>
+                <p className="text-lg mb-4">Email: aswinsaji777@gmail.com</p>
+                <p className="text-lg">Phno: +91 8590480136</p>
             </div>
         </div>
     );
