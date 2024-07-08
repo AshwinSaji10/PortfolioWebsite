@@ -53,7 +53,7 @@ function Home() {
                 style={{ backgroundImage: `url(${sky})` }}
             >
                 <div className="flex flex-col items-center justify-center text-white text-center pb-5">
-                    <h1 className="font-palanquin text-8xl px-10">
+                    <h1 className="font-palanquin text-8xl  px-10">
                         Welcome to my Portfolio Website!
                     </h1>
                     <p className="font-montserrat text-2xl mt-4">
