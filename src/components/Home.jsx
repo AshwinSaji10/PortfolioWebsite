@@ -67,7 +67,7 @@ function Home() {
             <div id="about" className="py-20 px-10 bg-gray-100">
                 <h1 className="font-palanquin text-4xl mb-4">About Me</h1>
                 <p className="text-lg">
-                I am a Computer Science Engineer with a passion for technology and development. 
+                I am a Computer Science Engineering graduate with a passion for technology and development. 
                 I enjoy working on innovative ideas and projects that challenge conventional approaches and bring about impactful solutions.
                 This portfolio webpage serves as a showcase of my skills, projects, and achievements, highlighting my dedication and hard work.
                 </p>
