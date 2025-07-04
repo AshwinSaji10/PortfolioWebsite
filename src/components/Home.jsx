@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { fetchLatestRepositories } from "../services/GithubService";
 import sky from "/Sky.jpg";
-import github_bg from "/github.png";
+// import github_bg from "/github.png";
 
 // import {
 //     CogIcon,
@@ -36,14 +36,14 @@ function Home() {
         getRepositories();
     }, []);
 
-    const scroll = (direction) => {
-        const container = document.querySelector("#projects .flex");
-        const scrollAmount = 320; // Adjust based on card width
-        container.scrollBy({
-            left: direction * scrollAmount,
-            behavior: "smooth",
-        });
-    };
+    // const scroll = (direction) => {
+    //     const container = document.querySelector("#projects .flex");
+    //     const scrollAmount = 320; // Adjust based on card width
+    //     container.scrollBy({
+    //         left: direction * scrollAmount,
+    //         behavior: "smooth",
+    //     });
+    // };
 
     return (
         <div>
@@ -54,10 +54,10 @@ function Home() {
                 style={{ backgroundImage: `url(${sky})` }}
             >
                 <div className="flex flex-col items-center gap-6 justify-center text-white text-center ">
-                    <h1 className="font-palanquin text-4xl sm:text-8xl px-20 pt-28">
+                    <h1 className="font-dmSans max-sm:text-4xl max-lg:text-[80px] text-8xl px-20 pt-28">
                         Welcome to my Portfolio Website!
                     </h1>
-                    <p className="font-montserrat text-xl sm:text-2xl mt-4">
+                    <p className="font-roboto max-sm:text-xl text-2xl mt-4 max-lg:mb-2">
                         Hi there, I am Ashwin Saji
                     </p>
                 </div>
@@ -67,9 +67,13 @@ function Home() {
             <div id="about" className="py-20 px-10 bg-gray-100">
                 <h1 className="font-palanquin text-4xl mb-4">About Me</h1>
                 <p className="text-lg">
-                I am a Computer Science Engineering graduate with a passion for technology and development. 
-                I enjoy working on innovative ideas and projects that challenge conventional approaches and bring about impactful solutions.
-                This portfolio webpage serves as a showcase of my skills, projects, and achievements, highlighting my dedication and hard work.
+                    I am a Computer Science Engineering graduate with a passion
+                    for technology and development. I enjoy working on
+                    innovative ideas and projects that challenge conventional
+                    approaches and bring about impactful solutions. This
+                    portfolio webpage serves as a showcase of my skills,
+                    projects, and achievements, highlighting my dedication and
+                    hard work.
                 </p>
             </div>
 
