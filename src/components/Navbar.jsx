@@ -23,8 +23,8 @@ const Navbar = () => {
 
     return (
         <nav
-            className="fixed z-1000 mt-0 w-[50%] rounded-[20px] top-1 left-1/2 -translate-x-1/2  
-            backdrop-filter backdrop-blur-xl backdrop-saturate-200 bg-opacity-30 px-8 py-3 font-montserrat"
+            className="fixed z-1000 mt-0 w-[90%] max-sm:w-full rounded-[20px] top-1 left-1/2 -translate-x-1/2  
+            backdrop-filter backdrop-blur-xl px-8 py-3 font-montserrat"
         >
             {/* Hamburger button for smaller screens */}
             {/* <div className="hidden max-lg:block absolute top-3 left-3">

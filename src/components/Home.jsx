@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { fetchLatestRepositories } from "../services/GithubService";
-import sky from "/Sky.jpg";
+// import sky from "/Sky.jpg";
+import {Sky} from "../assets/images/index.js";
 // import github_bg from "/github.png";
 
 // import {
@@ -51,13 +52,13 @@ function Home() {
             <div
                 id="home"
                 className="bg-cover bg-center min-h-[60vh]"
-                style={{ backgroundImage: `url(${sky})` }}
+                style={{ backgroundImage: `url(${Sky})` }}
             >
                 <div className="flex flex-col items-center gap-6 justify-center text-white text-center ">
-                    <h1 className="font-dmSans max-sm:text-4xl max-lg:text-[80px] text-8xl px-20 pt-28">
+                    <h1 className="font-montserrat max-sm:text-4xl max-lg:text-[80px] text-8xl px-20 pt-28">
                         Welcome to my Portfolio Website!
                     </h1>
-                    <p className="font-roboto max-sm:text-xl text-2xl mt-4 max-lg:mb-2">
+                    <p className="font-palanquin max-sm:text-xl text-2xl mt-4 max-lg:mb-2">
                         Hi there, I am Ashwin Saji
                     </p>
                 </div>
@@ -65,8 +66,8 @@ function Home() {
 
             {/* About Me Section */}
             <div id="about" className="py-20 px-10 bg-gray-100">
-                <h1 className="font-palanquin text-4xl mb-4">About Me</h1>
-                <p className="text-lg">
+                <h1 className="font-roboto text-4xl mb-4">About Me</h1>
+                <p className="text-lg font-roboto">
                     I am a Computer Science Engineering graduate with a passion
                     for technology and development. I enjoy working on
                     innovative ideas and projects that challenge conventional
