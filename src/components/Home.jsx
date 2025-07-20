@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { fetchLatestRepositories } from "../services/GithubService";
 // import sky from "/Sky.jpg";
-import {Sky} from "../assets/images/index.js";
+import { Sky } from "../assets/images/index.js";
 // import github_bg from "/github.png";
 
 // import {
@@ -51,14 +51,36 @@ function Home() {
             {/* Hero Section */}
             <div
                 id="home"
-                className="bg-cover bg-center min-h-[60vh]"
-                style={{ backgroundImage: `url(${Sky})` }}
+                className="bg-cover bg-center"
+                style={{
+                    backgroundImage: `url(${Sky})`,
+                    // backgroundAttachment: "fixed",
+                    // // backgroundPosition: "center center",
+                    // backgroundPosition: "center 200%",
+                    // backgroundRepeat: "no-repeat",
+                    // backgroundSize: "cover",
+                }}
             >
-                <div className="flex flex-col items-center gap-6 justify-center text-white text-center ">
+                {/* <div className="flex flex-col items-center gap-6 justify-center text-white text-center ">
                     <h1 className="font-montserrat max-sm:text-4xl max-lg:text-[80px] text-8xl px-20 pt-28">
                         Welcome to my Portfolio Website!
                     </h1>
                     <p className="font-palanquin max-sm:text-xl text-2xl mt-4 max-lg:mb-2">
+                        Hi there, I am Ashwin Saji
+                    </p>
+                </div> */}
+                <div className="flex flex-col items-center gap-6 justify-center text-white text-center whitespace-nowrap">
+                    <h1
+                        className="font-montserrat max-sm:text-4xl max-md:text-[60px] max-lg:text-[80px] text-8xl px-20 pt-28"
+                        // style={{
+                        //     textShadow: "2px 4px 12px rgba(0,0,0,0.7)",
+                        // }}
+                    >
+                        <span className="font-montserrat">Welcome</span> to my
+                        <br />
+                        Portfolio Website!
+                    </h1>
+                    <p className="font-montserrat max-sm:text-xl text-2xl mt-4 max-lg:mb-7 lg:mb-15">
                         Hi there, I am Ashwin Saji
                     </p>
                 </div>
