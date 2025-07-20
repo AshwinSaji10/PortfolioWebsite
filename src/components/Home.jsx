@@ -217,7 +217,7 @@ function Home() {
             <div id="contact" className="flex flex-col py-20 px-10">
                 <h1 className="font-palanquin text-4xl mb-4">Contact</h1>
                 <p className="text-lg mb-4">Email: aswinsaji777@gmail.com</p>
-                <p className="text-lg">Phno: +91 8590480136</p>
+                {/* <p className="text-lg">Phno: +91 8590480136</p> */}
             </div>
         </div>
     );

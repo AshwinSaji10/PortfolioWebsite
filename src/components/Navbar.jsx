@@ -23,8 +23,8 @@ const Navbar = () => {
 
     return (
         <nav
-            className="fixed z-1000 mt-0 w-[90%] max-sm:w-full rounded-[20px] top-1 left-1/2 -translate-x-1/2  
-            backdrop-filter backdrop-blur-xl px-8 py-3 font-montserrat"
+            className="fixed z-1000 mt-0 w-full left-1/2 -translate-x-1/2 rounded-b-md  
+            backdrop-filter backdrop-blur-2xl backdrop-invert-10 backdrop-saturate-150 px-8 py-3 font-montserrat font-semibold shadow-2xl"
         >
             {/* Hamburger button for smaller screens */}
             {/* <div className="hidden max-lg:block absolute top-3 left-3">
@@ -47,7 +47,7 @@ const Navbar = () => {
                 onClick={toggleMenu}
             ></img>
             {/* Navbar links for larger screens */}
-            <div className="hidden lg:flex justify-around">
+            <div className="hidden lg:flex justify-evenly">
                 <a href="#home">Home</a>
                 <a href="#about">About Me</a>
                 <a href="#stack">Tech Stack</a>
