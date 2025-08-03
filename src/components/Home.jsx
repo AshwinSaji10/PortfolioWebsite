@@ -71,7 +71,7 @@ function Home() {
                 </div> */}
                 <div className="flex flex-col items-center gap-6 justify-center text-white text-center whitespace-nowrap">
                     <h1
-                        className="font-montserrat max-sm:text-4xl max-md:text-[60px] max-lg:text-[80px] text-8xl px-20 pt-28"
+                        className="font-montserrat max-sm:text-4xl max-md:text-[60px] max-lg:text-[80px] text-8xl pt-28"
                         // style={{
                         //     textShadow: "2px 4px 12px rgba(0,0,0,0.7)",
                         // }}
